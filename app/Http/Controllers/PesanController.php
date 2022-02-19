@@ -110,7 +110,7 @@ class PesanController extends Controller
 
         // Alert::error('Success Title', 'Success Message');
         alert()->error('Hapus!', 'Pesanan Sukses Di Hapus!');
-        return redirect('check-out'); 
+        return redirect('home'); 
     }
 
     public function konfirmasi()
